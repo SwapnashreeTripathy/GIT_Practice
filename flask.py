@@ -5,7 +5,7 @@ aap = Flask(__name__)
 
 @aap.route('/', method= ['GET'])
 
-def helloworld():
+def hello():
     return "Hi there"
 
 if __name__ == "__main__":
